@@ -53,6 +53,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <label>TestCustomObject</label>
+    
     <nameField>
         <label>TestCustomObject Name</label>
         <type>Text</type>
