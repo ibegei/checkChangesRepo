@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>agf__Location__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Location_Deprecated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>agf__Region__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Canada - Remote</fullName>
+                    <default>false</default>
+                    <label>Canada - Remote</label>
+                </value>
+                <value>
+                    <fullName>Canada - Toronto</fullName>
+                    <default>false</default>
+                    <label>Canada - Toronto</label>
+                </value>
+                <value>
+                    <fullName>CA - San Francisco</fullName>
+                    <default>false</default>
+                    <label>CA - San Francisco</label>
+                </value>
+                <value>
+                    <fullName>CA - San Mateo</fullName>
+                    <default>false</default>
+                    <label>CA - San Mateo</label>
+                </value>
+                <value>
+                    <fullName>CA - Santa Monica</fullName>
+                    <default>false</default>
+                    <label>CA - Santa Monica</label>
+                </value>
+                <value>
+                    <fullName>California - Remote</fullName>
+                    <default>false</default>
+                    <label>California - Remote</label>
+                </value>
+                <value>
+                    <fullName>Colorado - Remote</fullName>
+                    <default>false</default>
+                    <label>Colorado - Remote</label>
+                </value>
+                <value>
+                    <fullName>FL - Tampa</fullName>
+                    <default>false</default>
+                    <label>FL - Tampa</label>
+                </value>
+                <value>
+                    <fullName>Florida - Remote</fullName>
+                    <default>false</default>
+                    <label>Florida - Remote</label>
+                </value>
+                <value>
+                    <fullName>Georgia - Remote</fullName>
+                    <default>false</default>
+                    <label>Georgia - Remote</label>
+                </value>
+                <value>
+                    <fullName>Idaho - Remote</fullName>
+                    <default>false</default>
+                    <label>Idaho - Remote</label>
+                </value>
+                <value>
+                    <fullName>Illinois - Remote</fullName>
+                    <default>false</default>
+                    <label>Illinois - Remote</label>
+                </value>
+                <value>
+                    <fullName>Louisiana - Remote</fullName>
+                    <default>false</default>
+                    <label>Louisiana - Remote</label>
+                </value>
+                <value>
+                    <fullName>Maine - Remote</fullName>
+                    <default>false</default>
+                    <label>Maine - Remote</label>
+                </value>
+                <value>
+                    <fullName>Massachusetts - Remote</fullName>
+                    <default>false</default>
+                    <label>Massachusetts - Remote</label>
+                </value>
+                <value>
+                    <fullName>New Hampshire - Remote</fullName>
+                    <default>false</default>
+                    <label>New Hampshire - Remote</label>
+                </value>
+                <value>
+                    <fullName>New Jersey - Remote</fullName>
+                    <default>false</default>
+                    <label>New Jersey - Remote</label>
+                </value>
+                <value>
+                    <fullName>New York - Remote</fullName>
+                    <default>false</default>
+                    <label>New York - Remote</label>
+                </value>
+                <value>
+                    <fullName>North Carolina - Remote</fullName>
+                    <default>false</default>
+                    <label>North Carolina - Remote</label>
+                </value>
+                <value>
+                    <fullName>NY - New York</fullName>
+                    <default>false</default>
+                    <label>NY - New York</label>
+                </value>
+                <value>
+                    <fullName>Ohio - Remote</fullName>
+                    <default>false</default>
+                    <label>Ohio - Remote</label>
+                </value>
+                <value>
+                    <fullName>Oregon - Remote</fullName>
+                    <default>false</default>
+                    <label>Oregon - Remote</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania - Remote</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania - Remote</label>
+                </value>
+                <value>
+                    <fullName>Texas - Remote</fullName>
+                    <default>false</default>
+                    <label>Texas - Remote</label>
+                </value>
+                <value>
+                    <fullName>VA - Reston</fullName>
+                    <default>false</default>
+                    <label>VA - Reston</label>
+                </value>
+                <value>
+                    <fullName>WA - Seattle</fullName>
+                    <default>false</default>
+                    <label>WA - Seattle</label>
+                </value>
+                <value>
+                    <fullName>Washington - Remote</fullName>
+                    <default>false</default>
+                    <label>Washington - Remote</label>
+                </value>
+                <value>
+                    <fullName>India - Hyderabad</fullName>
+                    <default>false</default>
+                    <label>India - Hyderabad</label>
+                </value>
+                <value>
+                    <fullName>France - Paris</fullName>
+                    <default>false</default>
+                    <label>France - Paris</label>
+                </value>
+                <value>
+                    <fullName>Sweden - Stockholm</fullName>
+                    <default>false</default>
+                    <label>Sweden - Stockholm</label>
+                </value>
+                <value>
+                    <fullName>United Kingdom - Remote</fullName>
+                    <default>false</default>
+                    <label>United Kingdom - Remote</label>
+                </value>
+                <value>
+                    <fullName>Japan - Tokyo</fullName>
+                    <default>false</default>
+                    <label>Japan - Tokyo</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Americas - Canada</controllingFieldValue>
+                <valueName>Canada - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - Canada</controllingFieldValue>
+                <valueName>Canada - Toronto</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>CA - San Francisco</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>CA - San Mateo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>CA - Santa Monica</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>California - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Colorado - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>FL - Tampa</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Florida - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Georgia - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Idaho - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Illinois - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Louisiana - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Maine - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Massachusetts - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>New Hampshire - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>New Jersey - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>New York - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>North Carolina - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>NY - New York</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Ohio - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Oregon - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Pennsylvania - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Texas - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>VA - Reston</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>WA - Seattle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Americas - USA</controllingFieldValue>
+                <valueName>Washington - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>APAC - All Countries</controllingFieldValue>
+                <valueName>India - Hyderabad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EMEA - All Countries</controllingFieldValue>
+                <valueName>France - Paris</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EMEA - All Countries</controllingFieldValue>
+                <valueName>Sweden - Stockholm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EMEA - All Countries</controllingFieldValue>
+                <valueName>United Kingdom - Remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Japan</controllingFieldValue>
+                <valueName>Japan - Tokyo</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

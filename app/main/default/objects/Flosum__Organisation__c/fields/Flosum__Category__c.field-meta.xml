@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Flosum__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DevHub</fullName>
+                    <default>false</default>
+                    <label>DevHub</label>
+                </value>
+                <value>
+                    <fullName>Scratch</fullName>
+                    <default>false</default>
+                    <label>Scratch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

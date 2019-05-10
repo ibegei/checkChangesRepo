@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>TASKRAY__Checklist_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TASKRAY__Checklist_Compact</fullName>
+        <fields>Name</fields>
+        <fields>TASKRAY__trChecklistGroup__c</fields>
+        <fields>TASKRAY__Project_Task__c</fields>
+        <fields>TASKRAY__trOwner__c</fields>
+        <fields>TASKRAY__Completed__c</fields>
+        <label>TaskRay Checklist Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This is the primary TaskRay object for Checklist Items.  This object may be used to manage reports, dashboards, workflows and other native Salesforce functionality.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>TASKRAY__Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Completed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__Project_Task__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>TaskRay Task</label>
+        <referenceTo>TASKRAY__Project_Task__c</referenceTo>
+        <relationshipLabel>TaskRay Checklist Items</relationshipLabel>
+        <relationshipName>TaskRay_Checklist_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__SortOrder__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sort Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trChecklistGroup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Checklist Group</label>
+        <referenceTo>TASKRAY__trChecklistGroup__c</referenceTo>
+        <relationshipName>TaskRay_Checklist_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trIsMyChecklistItem__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TASKRAY__trOwner__c = $User.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>My Checklist Item</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trLongName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Checklist Item Name</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>TaskRay_Checklist_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trProjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(TASKRAY__Project_Task__r.TASKRAY__Project__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Project Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trTemplateSource__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Template Source</label>
+        <referenceTo>TASKRAY__trChecklistItem__c</referenceTo>
+        <relationshipLabel>Cloned Checklist Items</relationshipLabel>
+        <relationshipName>Template_Source</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>TaskRay Checklist Item</label>
+    <listViews>
+        <fullName>TASKRAY__AllOpenChecklistItems</fullName>
+        <columns>NAME</columns>
+        <columns>TASKRAY__trChecklistGroup__c</columns>
+        <columns>TASKRAY__Project_Task__c</columns>
+        <columns>TASKRAY__trOwner__c</columns>
+        <columns>TASKRAY__Completed__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASKRAY__Completed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Open Checklist Items</label>
+    </listViews>
+    <listViews>
+        <fullName>TASKRAY__MyOpenChecklistItems</fullName>
+        <columns>NAME</columns>
+        <columns>TASKRAY__trChecklistGroup__c</columns>
+        <columns>TASKRAY__Project_Task__c</columns>
+        <columns>TASKRAY__trOwner__c</columns>
+        <columns>TASKRAY__Completed__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASKRAY__Completed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASKRAY__trIsMyChecklistItem__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Open Checklist Items</label>
+    </listViews>
+    <nameField>
+        <label>TaskRay Checklist Item Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>TaskRay Checklist Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

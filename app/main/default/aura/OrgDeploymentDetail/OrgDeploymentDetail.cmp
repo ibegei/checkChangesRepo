@@ -1,0 +1,9 @@
+<aura:component controller = "OrgDeploymentDetailController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<ltng:require scripts="{!$Resource.ChartJS}" afterScriptsLoaded="{!c.doInit}" />
+    <aura:attribute name="recordId" type="Id" />
+    <lightning:card>
+        <div class="mainDiv">
+            <canvas aura:id="myCharts"/>
+        </div>
+    </lightning:card>
+</aura:component>

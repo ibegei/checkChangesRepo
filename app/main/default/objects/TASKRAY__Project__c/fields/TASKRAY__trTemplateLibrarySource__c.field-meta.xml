@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>TASKRAY__trTemplateLibrarySource__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>TaskRay Template Library Source</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

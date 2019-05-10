@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>TASKRAY__trListColor__c</fullName>
+        <deprecated>false</deprecated>
+        <description>TaskRay List Color (hex)</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>List Color</label>
+        <length>7</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TASKRAY__trListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API Value of a TaskRay Project Task List picklist value</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>TaskRay List Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TaskRay List Setting</label>
+    <pluralLabel>TaskRay List Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
