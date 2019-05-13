@@ -1,0 +1,9 @@
+<aura:component controller = "TotalNumberOfMetadataTypeController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<ltng:require scripts="{!$Resource.ChartJS}" afterScriptsLoaded="{!c.doInit}" />
+    <aura:attribute name="recordId" type="Id" />
+    <lightning:card>
+        <div id="mainDiv" class="slds-box" style="height: 400px; width: 1400px;">
+            <canvas aura:id="myCharts" height="400" width="1400"></canvas>
+        </div>
+    </lightning:card>
+</aura:component>

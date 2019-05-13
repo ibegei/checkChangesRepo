@@ -6,7 +6,6 @@ public class BitbucketBuildReqBody {
         String boundary = UserInfo.getUserId();
         
         
-        
         String header='';
         header=
             '--' + boundary + '\r\n' +
