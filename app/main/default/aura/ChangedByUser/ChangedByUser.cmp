@@ -1,6 +1,7 @@
 <aura:component controller= "ChangedByUserController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
 	<ltng:require scripts="{!$Resource.ChartJS}" afterScriptsLoaded="{!c.doInit}" />
     <aura:attribute name="recordId" type="Id" />
+    
     <lightning:card>
         <div id="mainDiv">
         	<canvas aura:id="myChartsChangedBy"></canvas>
