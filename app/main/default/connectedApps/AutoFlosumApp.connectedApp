@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>flosum.testing@gmail.com</contactEmail>
+    <label>AutoFlosumApp</label>
+    <oauthConfig>
+        <callbackUrl>https://flosumdemo--flosum.na24.visual.force.com/apex/flosum__registerorganizations
+https://flosumdemo--flosum.na24.visual.force.com/apex/flosum__editrepositorysettings
+oob</callbackUrl>
+        <consumerKey>3MVG9AzPSkglhtpvenc1ubvIHNnSW9IHEonNzeXj2oH9PqKmbY8ygC3cvw0V9.ND8j3el8RFq0yZnUNlOwtOS</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+</ConnectedApp>
